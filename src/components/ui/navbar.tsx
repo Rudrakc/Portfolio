@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <header className="fixed right-0 left-0 top-0 py-4 px-12 bg-black/40 backdrop-blur-lg z-[150] flex items-center border-b-[1px] border-neutral-900 justify-between">
       <aside>
