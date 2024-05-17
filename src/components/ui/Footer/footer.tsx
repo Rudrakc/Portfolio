@@ -1,9 +1,6 @@
-import React from "react";
 import { ButtonsCard } from "./button";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="z-[100] pb-32 pt-10 px-28 w-full">
       <div className="text-sm text-gray-500 text-start ">&copy; 2024</div>

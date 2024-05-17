@@ -1,11 +1,9 @@
-import React from "react";
 import Lottie from "lottie-react";
 import studentAnime from "@/assets/student.json";
-import { TypewriterEffect, TypewriterEffectSmooth } from "./typewriter-effect";
+import { TypewriterEffectSmooth } from "./typewriter-effect";
 
-type Props = {};
 
-const AboutMe = (props: Props) => {
+const AboutMe = () => {
   const words = [
     {
       text: "A ",

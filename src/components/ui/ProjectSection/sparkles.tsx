@@ -1,8 +1,7 @@
 'use client'
-import React from 'react'
 import { useEffect, useState } from 'react'
 import Particles, { initParticlesEngine } from '@tsparticles/react'
-import type { Container, Engine } from '@tsparticles/engine'
+import type { Container } from '@tsparticles/engine'
 import { loadSlim } from '@tsparticles/slim'
 
 import { motion, useAnimation } from 'framer-motion'

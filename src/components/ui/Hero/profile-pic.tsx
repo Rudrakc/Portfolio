@@ -1,9 +1,7 @@
-import React from "react";
 import pic from "@/assets/dp.jpg";
 
-type Props = {};
 
-const ProfilePic = (props: Props) => {
+const ProfilePic = () => {
   return (
     <div className="z-10 my-8  mx-20 bg-transparent">
       <img

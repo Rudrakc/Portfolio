@@ -1,4 +1,3 @@
-import React from "react";
 import {
   TextRevealCard,
   TextRevealCardDescription,
@@ -7,9 +6,8 @@ import {
 import { Spotlight } from "./spotlight";
 import ProfilePic from "./profile-pic";
 
-type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className="flex items-center justify-around w-full">
       <Spotlight className="-top-40 left-0 " fill="white" />

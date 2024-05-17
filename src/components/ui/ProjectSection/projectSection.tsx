@@ -1,13 +1,11 @@
-import React from "react";
 import { CardContainer, CardBody, CardItem } from "./3d-card";
 import { LampComponent } from "./lamp";
 import imgeditor from "@/assets/imgeditor.png";
 import kotlinuiImg from "@/assets/kotlinui.png";
 import schema from "@/assets/schema.png";
 
-type Props = {};
 
-const ProjectSection = (props: Props) => {
+const ProjectSection = () => {
   return (
     <div className="z-[150]">
       <LampComponent></LampComponent>
