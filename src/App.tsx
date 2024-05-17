@@ -33,11 +33,7 @@ function App() {
           <div className="flex flex-col mt-[-100px] md:mt-[-50px] ">
             <ContainerScroll
               titleComponent={
-                <div className="flex items-center flex-col">
-                  <h2 className="text-3xl md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-semibold">
-                    Automate Your Work With Fuzzie
-                  </h2>
-                </div>
+                <div className="flex items-center flex-col"></div>
               }
             >
               <img
