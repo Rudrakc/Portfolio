@@ -47,7 +47,7 @@ function App() {
       <main className="w-screen flex items-center justify-center flex-col">
         <Navbar></Navbar>
         <section className=" w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center  antialiased">
-          <div className="fixed   h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]"></div>
+          <div className="fixed inset-0  h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]"></div>
           <div className=" w-full mt-14 md:mt-0" id="hero">
             <Hero></Hero>
           </div>
