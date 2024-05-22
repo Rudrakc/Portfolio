@@ -97,6 +97,7 @@ module.exports = {
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
     },
+    
   },
   plugins: [addVariablesForColors, require("tailwindcss-animate"),func],
 };

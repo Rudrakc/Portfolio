@@ -7,7 +7,7 @@ import schema from "@/assets/schema.png";
 
 const ProjectSection = () => {
   return (
-    <div className="z-[150]">
+    <div className="z-[150] pb-20">
       <LampComponent></LampComponent>
       <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
         <CardContainer className=" ">
@@ -62,7 +62,7 @@ const ProjectSection = () => {
         </CardContainer>
 
         <CardContainer className=" ">
-          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]  min-w-96 w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <div className="flex flex-col items-start">
               <CardItem
                 translateZ="50"

@@ -9,9 +9,9 @@ import ProfilePic from "./profile-pic";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-around w-full">
-      <Spotlight className="-top-40 left-0 " fill="white" />
-      <div className="flex items-center justify-center bg-transparent h-[40rem] rounded-2xl ">
+    <div className="flex flex-col md:flex-row items-center justify-around w-full">
+      <Spotlight className="hidden md:block -top-40 left-0 " fill="white" />
+      <div className="flex items-center justify-center bg-transparent md:h-[40rem] rounded-2xl ">
         <div className="rounded-3xl">
           <div className="h-full  w-full dark:bg-transparent bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center ">
             {/* Radial gradient for the container to give a faded look */}
@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center bg-transparent h-[40rem] rounded-2xl">
+      <div className="flex items-center justify-center bg-transparent md:h-[40rem] rounded-2xl">
         <TextRevealCard
           text="Rudra Kumar Chauhan"
           revealText="I like coding & bikes  "

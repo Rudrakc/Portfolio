@@ -66,8 +66,6 @@ export const InfiniteMovingCards = ({
       }
     }
   };
-  const images = Array.from({ length: 10 }, (_, i) => `img${i + 1}`);
-  console.log(images);
   return (
     <div
       ref={containerRef}
@@ -79,13 +77,13 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-10 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 gap-10 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, index) => (
-        <li key={index} className="text-3xl font-bold  px-6">
+        <li key={index} className="text-xl  md:text-3xl font-bold  md:px-6">
           {item}
         </li>
       ))}

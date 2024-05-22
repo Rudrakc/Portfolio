@@ -19,23 +19,23 @@ const AboutMe = () => {
     },
   ];
   return (
-    <div className="z-[100] flex items-center justify-between mb-4 px-14" >
-      <div className=" opacity-85">
+    <div className="z-[100] flex flex-col md:flex-row items-center justify-between mb-4 px-14">
+      <div className="opacity-85 w-full md:w-1/2 flex justify-center">
         <Lottie
           animationData={studentAnime}
-          style={{ width: "600px", height: "600px" }}
-        ></Lottie>
+          className="w-full max-w-lg h-auto"
+        />
       </div>
-      <div className="">
+      <div className="w-full md:w-1/2 mt-4 md:mt-0">
         <TypewriterEffectSmooth words={words} />
-        <p className="text-left text-lg">
+        <p className="text-left text-lg mt-4">
           Hey there! I'm Rudra Chahaun, a first-year Computer Science
-          undergraduate based in Bangalore,<br /> India. 
-          I have a passion forcoding and love exploring the endless
-          possibilities it offers. <br />
-          I like tinkering with algorithms and solve
-          challenging problems <br />
-          Outside coding I also like Bikes and travelling
+          undergraduate at Scaler School of Technology based in Bangalore, India. 
+          I have a passion for coding and love exploring the endless
+          possibilities it offers. 
+          I like tinkering with algorithms and solving
+          challenging problems. <br />
+          Outside coding, I also like bikes and traveling.
         </p>
       </div>
     </div>
