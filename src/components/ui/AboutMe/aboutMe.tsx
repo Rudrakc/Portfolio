@@ -19,7 +19,7 @@ const AboutMe = () => {
     },
   ];
   return (
-    <div className="z-[100] flex flex-col md:flex-row items-center justify-between mb-4 px-14">
+    <div className="z-[100] flex flex-col md:flex-row items-center justify-between mb-4 px-10">
       <div className="opacity-85 w-full md:w-1/2 flex justify-center">
         <Lottie
           animationData={studentAnime}
